@@ -1,0 +1,55 @@
+﻿<div class="jumbotron">
+    <h3>Nova Empresa</h3>
+    <div>
+        <a href="/paginas" class="btn btn-default">Voltar</a>
+    </div>
+
+    <form action="/paginas/criar" method="post">
+        <div class="form-group">
+            <div class="form-group">
+                <label for="data">Data do cadastro:</label>
+                <input type="datetime" class="form-control" id="data" name="data" required>
+            </div>
+            <label for="nome">Razão Social:</label>
+            <input type="text" class="form-control" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+            <label for="fantasia">Nome fantasia:</label>
+            <input type="text" class="form-control" id="fantasia" name="fantasia" required>
+        </div>
+        <div class="form-group">
+            <label for="cnpj">CNPJ:</label>
+            <input type="number" class="form-control" id="cnpj" name="cnpj" required>
+        </div>
+        <div class="form-group">
+            <label for="dataA">Data da abertura da empresa:</label>
+            <input type="datetime" class="form-control" id="dataA" name="dataA" required>
+        </div>
+        <div class="form-group">
+            <label for="cep">CEP:</label>
+            <input type="number" class="form-control" id="cep" name="cep" required>
+        </div>
+        <div class="form-group">
+            <label for="rua">Rua:</label>
+            <input type="text" class="form-control" id="endereco" name="rua" required>
+        </div>
+        <div class="form-group">
+            <label for="numero">Número:</label>
+            <input type="number" class="form-control" id="numero" name="numero" required>
+        </div>
+        <div class="form-group">
+            <label for="bairro">Bairro:</label>
+            <input type="text" class="form-control" id="bairro" name="bairro" required>
+        </div>
+        <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" class="form-control" id="telefone" name="telefone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <button type="submit" class="btn btn-default">Salvar</button>
+    </form>
+
+</div>

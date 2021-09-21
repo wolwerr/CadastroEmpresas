@@ -52,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cep.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Pagina.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

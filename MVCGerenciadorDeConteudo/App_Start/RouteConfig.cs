@@ -64,7 +64,7 @@ namespace MVCGerenciadorDeConteudo
             routes.MapRoute(
                 "api_consulta_cep",
                 "api/consulta-cep/{cep}",
-                new { controller = "Cep", action = "Consulta", cep = "23450172000162" }
+                new { controller = "Cep", action = "Cep", cep = 0 }
                 );
 
             routes.MapRoute(

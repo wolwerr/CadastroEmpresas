@@ -12,3 +12,17 @@ C:\Users\User\source\repos\Database\bin\Debug\Newtonsoft.Json.xml
 C:\Users\User\source\repos\Database\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\User\source\repos\Database\bin\Debug\pt-br\System.Net.Http.Formatting.resources.dll
 C:\Users\User\source\repos\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Users\User\source\repos\CadastroEmpresas\Database\bin\Debug\Database.dll.config
+C:\Users\User\source\repos\CadastroEmpresas\Database\bin\Debug\Database.dll
+C:\Users\User\source\repos\CadastroEmpresas\Database\bin\Debug\Database.pdb
+C:\Users\User\source\repos\CadastroEmpresas\Database\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\CadastroEmpresas\Database\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\User\source\repos\CadastroEmpresas\Database\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+C:\Users\User\source\repos\CadastroEmpresas\Database\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\CadastroEmpresas\Database\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\User\source\repos\CadastroEmpresas\Database\bin\Debug\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\User\source\repos\CadastroEmpresas\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CadastroEmpresas\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CadastroEmpresas\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Users\User\source\repos\CadastroEmpresas\Database\obj\Debug\Database.dll
+C:\Users\User\source\repos\CadastroEmpresas\Database\obj\Debug\Database.pdb

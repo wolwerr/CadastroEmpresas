@@ -21,6 +21,7 @@ namespace Business
 
         public static Cep Busca(string cep)
         {
+           
            var cepObj = new Cep();
            var url = "https://www.receitaws.com.br/v1/cnpj/" + cep;
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
@@ -42,7 +43,7 @@ namespace Business
             cepObj.Endereco = cepJson.district;
             cepObj.Endereco = cepJson.city;
             cepObj.Endereco = cepJson.state;
-            return cepObj;
+           return cepObj;
          }
     }
 

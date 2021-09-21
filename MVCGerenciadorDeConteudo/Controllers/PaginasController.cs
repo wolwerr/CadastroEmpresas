@@ -61,6 +61,7 @@ namespace MVCGerenciadorDeConteudo.Controllers
         {
             Pagina.Excluir(id);           
             Response.Redirect("/paginas");
+            TempData["Sucesso"] = "Cadastro deletado";
         }
 
 
@@ -81,12 +82,13 @@ namespace MVCGerenciadorDeConteudo.Controllers
                 DateTime data;
                 DateTime.TryParse(Request["data"], out data);
                 DateTime dataA;
-                DateTime.TryParse(Request["dataA"], out data);
+                DateTime.TryParse(Request["dataA"], out dataA);
 
                 pagina.Data = data;
                 pagina.Nome = Request["nome"];
                 pagina.Fantasia = Request["fantasia"];
                 pagina.Cnpj = Request["cnpj"];
+                pagina.Data = dataA;
                 pagina.Cep = Request["cep"];
                 pagina.Rua = Request["rua"];
                 pagina.Numero = Request["numero"];

@@ -11,7 +11,7 @@
     <form action="/paginas/@pagina.Id/alterar" method="post">
         <div class="form-group">
             <label for="data">Data do cadastro:</label>
-            <input type="datetime" class="form-control" id="data" value="@pagina.Data" name="data">
+            <input type="datetime" placeholder="00/00/0000" class="form-control" id="data" value="@pagina.Data" name="data">
         </div>
         <div class="form-group">
             <label for="nome">Razão Social:</label>
@@ -27,7 +27,7 @@
         </div>
         <div class="form-group">
             <label for="dataA">Data da abertura da empresa:</label>
-            <input type="datetime" class="form-control" id="dataA" name="dataA" required value="@pagina.DataA">
+            <input type="datetime" placeholder="00/00/0000" class="form-control" id="dataA" name="dataA" required value="@pagina.DataA">
         </div>
         <div class="form-group">
             <label for="cep">CEP:</label>

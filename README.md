@@ -1,6 +1,6 @@
 # CadastroEmpresas
 
-Um sistema para fazer o cadastro de empresas em c#, .dotnet com BD no Server SQL
+Um sistema para fazer o cadastro de empresas em c#, .dotnet com BD no SQL Server
 
 Plataforma integrada
 Exercício feito com único propósito de ingresso no processo de seleção para oportunidade de desenvolvimento na Uppertools Tecnologia da Informação
@@ -10,7 +10,7 @@ Demorei um pouco para fazer o programa porque não tinha muita experiência com 
 
 
 Arquitetura
-Criei um programa em MCV, com três camadas.
+Criei um programa em MVC, com três camadas.
 
 Tecnologias
 Utilizei c# com framework .net
